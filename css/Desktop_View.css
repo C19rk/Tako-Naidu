@@ -394,6 +394,7 @@
   opacity: 1;
   animation: slideOutBg 3s ease-out;
   animation-delay: 5s;
+  animation-fill-mode: forwards;
 }
 
 @keyframes slideOutBg {
@@ -474,12 +475,6 @@
     transform: translateX(0%);
     opacity: 1;
   }
-}
-
-#bg-anim-slide-out.hidden,
-#logo-slide-in.hidden,
-#text-slide-in.hidden {
-  visibility: hidden;
 }
 
 /* Invisible Text for spacing fix */
