@@ -22,11 +22,11 @@ window.addEventListener("load", function () {
 
     setTimeout(function () {
       hideLoadingScreens();
-    }, 8000);
+    }, 7800);
 
     setTimeout(function () {
       loadingScreenBg.style.display = "none";
-    }, 6000);
+    }, 8000);
 
     setTimeout(function () {
       loadingScreenLogo.style.display = "none";
