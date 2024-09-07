@@ -395,6 +395,7 @@
     opacity: 1;
     animation: slideOutBg 3s ease-out;
     animation-delay: 5s;
+    animation-fill-mode: forwards;
   }
 
   @keyframes slideOutBg {
