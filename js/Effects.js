@@ -26,7 +26,7 @@ window.addEventListener("load", function () {
 
     setTimeout(function () {
       loadingScreenBg.style.display = "none";
-    }, 7900);
+    }, 8000);
 
     setTimeout(function () {
       loadingScreenLogo.style.display = "none";
